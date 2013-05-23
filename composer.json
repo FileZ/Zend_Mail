@@ -1,0 +1,29 @@
+{
+    "name": "filez/zend_mail",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Mail Library",
+    "keywords": [
+        "zendframework",
+        "mail",
+		"zf1"
+    ],
+    "homepage": "https://github.com/FileZ/Zend_Mail",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.Zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "filez/zend_date": "*",
+        "filez/zend_loader": "*",
+        "filez/zend_mail": "*",
+        "filez/zend_mime": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Mail": "" }
+    }
+}
